@@ -51,7 +51,7 @@ function App() {
           muted
         />
       ))}
-      <img className="frame" src="/tv.png" alt="" />
+      <img className="frame" src="tv.png" alt="" />
     </main>
   );
 }
