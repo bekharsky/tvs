@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background: black url(/pexels-cottonbro-4488642.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  width: 60vw;
+  height: auto;
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.video:nth-of-type(1) {
+  width: 8vw;
+  transform: translateX(-250%) translateY(-280%);
+}
+
+.video:nth-of-type(2) {
+  width: 5.5vw;
+  transform: translateX(-150%) translateY(-270%) rotate(90deg);
+}
+
+.video:nth-of-type(3) {
+  width: 9.2vw;
+  transform: translateX(12%) translateY(-269%) rotate(-12deg);
+}
+
+.video:nth-of-type(4) {
+  width: 10vw;
+  transform: translateX(-231%) translateY(-94%);
+}
+
+.video:nth-of-type(5) {
+  width: 11vw;
+  transform: translateX(-93%) translateY(-71%);
+}
+
+.video:nth-of-type(6) {
+  width: 11vw;
+  transform: translateX(44%) translateY(-107%);
+}
+
+.video:nth-of-type(7) {
+  width: 14.5vw;
+  transform: translateX(-198%) translateY(33%);
+}
+
+.video:nth-of-type(8) {
+  width: 16vw;
+  transform: translateX(-54%) translateY(34%);
+}
+
+.video:nth-of-type(9) {
+  width: 17vw;
+  transform: translateX(50%) translateY(14%);
+}
